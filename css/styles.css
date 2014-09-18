@@ -123,6 +123,94 @@ a:focus {
 		height: 1.5em;
 	}
 
+/* content */
+
+	/* features */
+	
+	.features {
+		margin-top: 3em;
+	}
+
+		/* slideshow */
+
+		.slideshow {
+			margin-bottom: 1.7em;
+		}
+
+		.slideshow, .slide {
+			position: relative;
+		}
+
+		.slide, .slide img {
+			border-radius: 1em;
+		}
+
+		.slide-text {
+			position: absolute;
+			top: 40%;
+			left: 0;
+			padding: 1em 5em 1em 1.5em;
+			background: rgba(235, 104, 65, 0.7);
+			color: #FFF;
+			text-transform: uppercase;
+		}
+
+		.slide-text h2 {
+			margin: 0;
+			color: #FFF;
+			font-size: 2em;
+			line-height: 1em;
+			font-weight: bold;
+		}
+
+		.slide-text p {
+			margin: 0;
+			line-height: 1.5em;
+			font-size: 1.125em;
+		}
+
+		.slideshow-pager {
+			position: absolute;
+			bottom: 0.5em;
+			right: 0.5em;
+		}
+
+		.slideshow-pager li {
+			display: inline-block;
+		}
+
+		.slideshow-pager a {
+			display: block;
+			background: rgba(33,183,198,0.7);
+			border: 2px solid #FFF;
+			width: 1.25em;
+			height: 1.25em;
+			border-radius: 1em;
+		}
+
+		.slideshow-pager a:hover, .slideshow-pager a.active {
+			background: #eb6841;
+		}
+
+		/* welcome text */
+
+		.welcome-text {
+			text-align: center;
+		}
+
+		.welcome-text p {
+			font-size: 0.875em; /* sets the context to 14 pixels */
+			color: #ababab;
+			margin-bottom: 0.2em;
+		}
+
+		.welcome-text p strong {
+			color: #6f6f6f;
+			font-weight: normal;
+			font-size: 1.857142857142857em; /* 26 / 14 */
+			line-height: 1.5em;
+		}
+
 /* footer */
 
 .footer-outer {
@@ -229,7 +317,7 @@ a:focus {
 		float: right;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 1em
+		font-size: 1em;
 	}
 
 /*
