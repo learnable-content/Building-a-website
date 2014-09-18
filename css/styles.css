@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 img, fieldset {border: 0;}
 img {max-width: 100%; vertical-align: middle;}
 button {cursor: pointer;}
+ul {list-style: none;}
 
 /*
 -- Typography
@@ -61,6 +62,67 @@ a:focus {
 	margin-top: 2em;
 }
 
+/* navigation bar */
+
+.navigation-outer {
+	background: #00a0b0;
+}
+
+	/* main navigation */
+
+	.site-navigation {
+		float: left;
+	}
+
+	.site-navigation li {
+		display: inline-block;
+	}
+
+	.site-navigation a {
+		display: block;
+		text-decoration: none;
+		color: #FFF;
+		padding: 0.2em 0.8em;
+		margin: 0.8em 0;
+	}
+
+	.site-navigation a:hover {
+		opacity: 0.7;
+	}
+
+	.site-navigation a.active {
+		background: #FFF;
+		color: #00a0b0;
+	}
+
+	/* search */
+
+	.site-search {
+		float: right;
+	}
+
+	.search-field {
+		background: #FFF;
+		padding: 0.2em;
+		margin: 0.8em 0;
+		border-radius: 1em;
+	}
+
+	.search-field input {
+		background: transparent;
+		border: 0;
+		width: 9em;
+		font-size: 0.875em;
+		padding: 0.2em 0.4em
+	}
+
+	.search-field button {
+		background: transparent url(../images/icon_search_small.png) no-repeat center center;
+		border: 0;
+		width: 2em;
+		height: 1.5em;
+	}
+
 /*
 -- General Use
 */
@@ -72,4 +134,21 @@ a:focus {
 
 .group:after {
 	clear: both;
+}
+
+.hide-vis {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.hide-text {
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
 }
