@@ -62,7 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem 
 [footer]
 About Eracle
 
-Vivamus non elementum enim. Vestibulum fringilla placerat vestibulum. Donec consequat scelerisque lorem, quis laoreet tortor dapibus nec. Duis sodales quis odio quis pretium. Etiam auctor sollicitudin enim. Duis tempus semper sodales. 
+Vivamus non elementum enim. Vestibulum fringilla placerat vestibulum. Donec consequat scelerisque lorem, quis laoreet tortor dapibus nec. Duis sodales quis odio quis pretium. Etiam auctor sollicitudin enim. Duis tempus semper sodales.
 
 [footer navigation]
 Home
