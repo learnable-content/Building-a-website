@@ -32,9 +32,44 @@ a:focus {
 -- Structure
 */
 
+.site-header, .navigation-bar, .site-content, .site-footer {
+	width: 58.75em; /* 940 / 16 */
+	margin: auto;
+}
 
+/* header */
+
+.header-outer {
+	background-color: #21b7c6;
+}
+
+.logo {
+	background-color: #eb6841;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2.625em;
+	padding: 0.3em 1.25em;
+	letter-spacing: 0.05em;
+	float: left;
+}
+
+.tagline {
+	font-style: italic;
+	color: #FFF;
+	font-size: 0.875em; /* 14 / 16 */
+	float: right;
+	margin-top: 2em;
+}
 
 /*
 -- General Use
 */
 
+.group:before, .group:after {
+	content:  " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
