@@ -1,0 +1,40 @@
+/*
+-- Basic Reset
+*/
+
+* {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+img, fieldset {border: 0;}
+img {max-width: 100%; vertical-align: middle;}
+button {cursor: pointer;}
+
+/*
+-- Typography
+*/
+
+body, input, select, textarea, button {
+	font-family: "PT Sans", sans-serif;
+	font-size: 1em;
+}
+
+p {
+	line-height: 1.75em;
+	margin-bottom: 1.75em;
+}
+
+a:focus {
+	outline: 1px dotted red;
+}
+
+
+
+/*
+-- Structure
+*/
+
+
+
+/*
+-- General Use
+*/
+
