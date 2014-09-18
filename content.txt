@@ -1,0 +1,74 @@
+[Logo and tagline]
+Eracle
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+[Navigation]
+Home
+About
+Services
+Products
+Support
+Contact
+
+[Slide text]
+Aliquam ultricies
+Mauris auctor imperdiet.
+
+[Welcome text]
+Aliquam ultricies rutrum dapibus. Mauris auctor imperdiet sollicitudin. Nulla facilisi.
+Aliquam rhoncus ultricies ligula congue facilisis.
+
+Sed sagittis nisi a pellentesque blandit. Sed sollicitudin sem tellus, sed dapibus mauris eleifend placerat.
+Pellentesque gravida est et erat semper aliquam.
+
+[recent work]
+Recent Work
+			
+Lorem Ipsum
+Proin malesuada egestas nunc tristique aliquet.
+							
+Lorem Ipsum
+Quisque lobortis lectus nec odio pulvinar placerat.  In hac habitasse platea dictumst.
+
+Lorem Ipsum
+Vivamus a urna massa,  quis vulputate magna
+
+Lorem Ipsum
+Etiam vel orci vitae nunc sollicitudin commodo. In hac habitasse platea dictumst.
+
+[latest posts]
+Latest Posts
+
+Fusce placerat, Turpis in Auctor
+Sep 2nd, 2014
+Sed ligula sapien, suscipit sed molestie fringilla, varius sit amet justo.
+
+Fusce placerat, Turpis in Auctor
+Sep 2nd, 2014
+Sed ligula sapien, suscipit sed molestie fringilla, varius sit amet justo.
+
+[testimonials]
+Testimonials
+
+Testimonial 1
+
+Nulla sed vehicula odio, sodales hendrerit erat. Aliquam mollis arcu lacus, sed adipiscing lacus lacinia vitae. Nullam risus ligula, faucibus eget luctus nec, dapibus non sapien. Ut ac lacus mi. Aenean sit amet facilisis elit. Aenean quis mollis mauris. Proin consectetur lacinia tempus. Nullam bibendum faucibus nunc, vitae tincidunt purus accumsan vitae. Proin a egestas orci. Nam et risus ac odio hendrerit vehicula vel vitae risus.
+
+[get in touch]
+Get in Touch
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem nihil eveniet sequi hic assumenda aliquam modi ab quos iusto repellendus repudiandae quam cumque enim quod architecto magnam repellat accusantium.
+
+[footer]
+About Eracle
+
+Vivamus non elementum enim. Vestibulum fringilla placerat vestibulum. Donec consequat scelerisque lorem, quis laoreet tortor dapibus nec. Duis sodales quis odio quis pretium. Etiam auctor sollicitudin enim. Duis tempus semper sodales. 
+
+[footer navigation]
+Home
+Terms of Service
+Legal
+Press
+
+[copyright]
+2014 &copy; Eracle.
