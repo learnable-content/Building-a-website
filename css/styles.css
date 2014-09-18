@@ -123,6 +123,115 @@ a:focus {
 		height: 1.5em;
 	}
 
+/* footer */
+
+.footer-outer {
+	background: #eb6841;
+}
+
+.site-footer {
+	padding: 2em 0;
+}
+
+.site-footer, .site-footer a {
+	color: #FFF;
+}
+
+	/* footer-about */
+
+	.footer-about {
+		float: left;
+		width: 42.5531914893617%; /* 400 / 940 */
+	}
+
+	.footer-about h2 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.125em;
+	}
+
+	.footer-about p {
+		line-height: 2em;
+		font-size: 0.875em;
+	}
+
+	/* footer-social */
+
+	.footer-social {
+		float: right;
+	}
+
+	.footer-social li {
+		display: inline-block;
+	}
+
+	.footer-social a {
+		background: no-repeat center center;
+		display: block;
+		width: 1em;
+		height: 1.4em;
+		padding: 0.5em 0.7em;
+		margin-left: 0.5em;
+		border-radius: 2em;
+	}
+
+	.footer-social .twitter {
+		background-image: url(../images/icon_twitter_small.png);
+		background-color: #47c2e5;
+	}
+
+	.footer-social .facebook {
+		background-image: url(../images/icon_facebook_small.png);
+		background-color: #477fe5;
+	}
+
+	.footer-social .gplus {
+		background-image: url(../images/icon_gplus_small.png);
+		background-color: #d43636;
+	}
+
+	.footer-social a:hover {
+		box-shadow: 0 0 8px rgba(255,255,255,0.6);
+	}
+
+	/* footer-navigation */
+
+	.footer-navigation {
+		float: left;
+		opacity: 0.5;
+		font-size: 0.75em;
+		text-transform: uppercase;
+	}
+
+	.footer-navigation li {
+		display: inline-block;
+	}
+
+	.footer-navigation a {
+		text-decoration: none;
+	}
+
+	.footer-navigation a:hover {
+		text-decoration: underline;
+	}
+
+	.footer-navigation li:after {
+		content: " / "
+	}
+
+	.footer-navigation li:last-child:after {
+		content: " ";
+	}
+
+	/* footer-copyright */
+
+	.footer-copyright {
+		float: right;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1em
+	}
+
 /*
 -- General Use
 */
