@@ -409,6 +409,110 @@ section > h2 {
 		left: -1em;
 	}
 
+	/* get in touch */
+
+	.get-in-touch-text {
+		float: left;
+		width: 29.78723404255319%; /* 280 / 940 */
+	}
+
+	.get-in-touch p {
+		margin: 0;
+		color: #6e6e6e;
+	}
+
+	.get-in-touch-form {
+		float: right;
+		width: 65.95744680851064%; /* 620 / 940 */
+	}
+
+		/* form */
+
+		.field {
+			margin-bottom: 1em;
+		}
+
+		fieldset.group .field {
+			float: left;
+			width: 49%;
+			margin-right: 2%;
+		}
+
+		fieldset.group .field:last-child {
+			margin-right: 0;
+		}
+
+		.input-field label, .input-field input, .textarea-field textarea {
+			display: block;
+			box-sizing: border-box;
+		}
+
+		.input-field label, .input-field input {
+			height: 2.8125em; /* 45 / 16 */
+		}
+
+		.input-field label {
+			width: 18.66666666666667%; /* 56 / 300 */
+			float: left;
+			color: #FFF;
+			background: #CCC no-repeat center center;
+			border-radius: 0.2em 0 0 0.2em;
+		}
+
+		.input-field input {
+			width: 81.33333333333333%; /* 244 / 300 */
+			float: right;
+			background: #f1f1f1;
+			font-weight: bold;
+			padding: 0.5em;
+			border: 0;
+			color: #6f6f6f;
+		}
+
+		.name-field label {
+			background-color: #21b7c6;
+			background-image: url(../images/icon_person_small.png);
+		}
+
+		.email-field label {
+			background-color: #eb6841;
+			background-image: url(../images/icon_mail_small.png);
+		}
+
+		.textarea-field textarea {
+			width: 100%;
+			height: 10em;
+			border: 2px solid #21b7c6;
+			border-radius: 0.5em;
+			padding: 1em;
+			color: #ababab;
+		}
+
+		.input-field input:focus, .textarea-field textarea:focus {
+			background: #e6fdff;
+		}
+
+		.submit-button {
+			float: right;
+			font-weight: bold;
+			font-size: 1.125em;
+			color: #FFF;
+			background: #21b7c6;
+			border: 0;
+			text-transform: uppercase;
+			padding: 0.5em 1em;
+			border-radius: 0.2em;
+		}
+
+		.submit-button:hover {
+			opacity: 0.9;
+		}
+
+		.submit-button:active {
+			padding: 0.6em 0.9em 0.4em 1.1em;
+			box-shadow: inset 2px 2px 3px rgba(0,0,0,0.2);
+		}
+
 
 
 /* footer */
