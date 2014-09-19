@@ -357,6 +357,58 @@ section > h2 {
 		text-decoration: underline;
 	}
 
+	/* testimonials */
+
+	.testimonial-list li {
+		background: #f5f5f5;
+		display: table;
+	}
+
+	.testimonial-text, .testimonial-image {
+		display: table-cell;
+		box-sizing: border-box;
+	}
+
+	.testimonial-text {
+		width: 74.46808510638298%; /* 700 / 940 */
+		padding: 2.5em;
+	}
+
+	.testimonial-text h3 {
+		font-size: 1.125em;
+		color: #eb6841;
+		margin-bottom: 0.8em;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.testimonial-text p {
+		margin: 0;
+		color: #6f6f6f;
+	}
+
+	.testimonial-image {
+		vertical-align: middle;
+		text-align: center;
+		background: #eb6841;
+		width: 25.53191489361702%; /* 240 / 940 */
+		position: relative;
+	}
+
+	.testimonial-image img {
+		border-radius: 4em;
+	}
+
+	.testimonial-image:after {
+		position: absolute;
+		content: " ";
+		display: block;
+		border: 0.5em solid transparent;
+		border-right: 0.5em solid #eb6841;
+		top: 7.5em;
+		left: -1em;
+	}
+
 
 
 /* footer */
