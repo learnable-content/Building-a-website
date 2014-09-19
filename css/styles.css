@@ -34,7 +34,9 @@ a:focus {
 */
 
 .site-header, .navigation-bar, .site-content, .site-footer {
-	width: 58.75em; /* 940 / 16 */
+	/*width: 58.75em;*/ /* 940 / 16 */
+	max-width: 58.75em;
+	min-width: 20em;
 	margin: auto;
 }
 
@@ -512,8 +514,6 @@ section > h2 {
 			padding: 0.6em 0.9em 0.4em 1.1em;
 			box-shadow: inset 2px 2px 3px rgba(0,0,0,0.2);
 		}
-
-
 
 /* footer */
 
