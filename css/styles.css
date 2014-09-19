@@ -306,6 +306,57 @@ section > h2 {
 		opacity: 0.8;
 	}
 
+	/* latest posts */
+
+	.post-list a {
+		text-decoration: none;
+		color: #FFF;
+		display: block;
+	}
+
+	.post-list li {
+		float: left;
+		width: 46.5%;
+		background: #21b7c6;
+	}
+
+	.post-list li:nth-child(even) {
+		float: right;
+		background: #eb6841;
+	}
+
+	.post-text, .post-image {
+		width: 50%;
+		float: left;
+	}
+
+	.post-text {
+		padding: 1.25em 1.8em;
+		box-sizing: border-box;
+	}
+
+	.post-text h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.125em;
+	}
+
+	.post-text time {
+		display: block;
+		margin: 0.5em 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 0.75em;
+	}
+
+	.post-text p {
+		margin: 0;
+	}
+
+	.post-list a:hover h3 {
+		text-decoration: underline;
+	}
+
 
 
 /* footer */
